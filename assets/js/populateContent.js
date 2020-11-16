@@ -1,6 +1,9 @@
 const projectContainer = document.querySelector("#projects");
 const projectPage = document.querySelector("#project-content");
 const projectId = window.location.pathname.indexOf('project') > -1 ? parseInt(window.location.pathname.split(".")[window.location.pathname.split(".").length - 2].slice(-1)) : undefined;
+const projectsLength = data.projects.length;
+const navLeftAnchor = document.querySelector("#nav-left");
+const navRightAnchor = document.querySelector("#nav-right");
 
 console.log(data)
 
@@ -76,9 +79,21 @@ projectPage ? projectPage.innerHTML =
                      </span>
                   </p>`
                   : `<></>`
-
-            
       )
       .join('')
       : 0
 
+      console.log(navRightAnchor)
+navLeftAnchor 
+   ? 
+   projectId - 1 == 0 
+      ? navLeftAnchor.href = `project_${projectsLength }.html`
+      : navLeftAnchor.href = `project_${projectId - 1}.html`
+   : 0;
+
+navRightAnchor 
+   ? 
+   projectId  == projectsLength
+      ? navRightAnchor.href = `project_${1}.html`
+      : navRightAnchor.href = `project_${projectId + 1}.html`
+   : 0;

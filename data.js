@@ -216,45 +216,6 @@ const data = {
             ],
         },
         // until here
-        // start of new project - start copying from hear
-        {
-            id: 6,
-            url: "pages/project_6.html",
-            thumb: "assets/project-5/Thumb.jpg",
-            name: "SVA",
-            mainImg: "../assets/project-5/1.jpg",
-            "image-title":
-                "Untitled, Drawing on Maps, Newspaper and Magazine collage, 2014.",
-            mainP: ``,
-            componenets: [
-                {
-                    p: {
-                        imgUrl: "../assets/project-5/2.jpg",
-                        text: `Untitled, projection of hole punches on wall and wall drawing, 2014.`,
-                    }
-                }, {
-                    p: {
-                        imgUrl: "../assets/project-5/3.jpg",
-                        text: `Untitled, projection, 2015.`,
-                    },
-                }, {
-                    p: {
-                        text: `SVA Second Year`,
-                    },
-                    p: {
-                        imgUrl: "../assets/project-5/4.jpg",
-                        text: `Untitled, Wall Drawings, 2015.`,
-                    },
-                }, {
-
-                    p: {
-                        imgUrl: "../assets/project-5/5.jpg",
-                        text: `Untitled, Map Drawings, 2016.`,
-                    },
-                },
-
-            ],
-        },
-        // until here
+       
     ],
 };

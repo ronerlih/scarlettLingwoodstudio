@@ -5,8 +5,6 @@ const projectsLength = data.projects.length;
 const navLeftAnchor = document.querySelector("#nav-left");
 const navRightAnchor = document.querySelector("#nav-right");
 
-console.log(data)
-
 // populate home page
 projectContainer ? projectContainer.innerHTML = data.projects.map(
    project => 
@@ -28,7 +26,6 @@ projectContainer ? projectContainer.innerHTML = data.projects.map(
 
    `).join('') : 0;
 
-   console.log(data.projects[projectId-1].name)
 // populate project page
 if (!isNaN(projectId))
 projectPage ? projectPage.innerHTML = 
@@ -83,7 +80,6 @@ projectPage ? projectPage.innerHTML =
       .join('')
       : 0
 
-      console.log(navRightAnchor)
 navLeftAnchor 
    ? 
    projectId - 1 == 0 

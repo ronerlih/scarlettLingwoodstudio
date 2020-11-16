@@ -1,7 +1,7 @@
 
 # 📓 Scarlet Lingwood Studio website source
 
-##### 🌎 live on [ www.scarlettLingwoodStudio.com ](www.scarlettLingwoodStudio.com)
+##### 🌎 live on [ www.scarlettLingwoodStudio.com ](https://www.scarlettLingwoodStudio.com)
 
 ### 🎨 Add content
    - Add project content block to `data.js`

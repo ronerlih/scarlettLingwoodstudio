@@ -150,7 +150,68 @@ const data = {
 				},
          ],
 		},
-		{ id: 4, url: "pages/project_4.html", thumb: "assets/project-4/Thumb.jpg", name: "Brain" },
-		{ id: 5, url: "pages/project_5.html", thumb: "assets/project-5/Thumb.jpg", name: "SVA" },
+      { 
+         id: 4, 
+         url: "pages/project_4.html", 
+         thumb: "../assets/project-4/Thumb.jpg", 
+         name: "Brain",
+         mainImg: "../assets/project-4/1.jpg",
+			"image-title":
+				"Untitled, Photograph, 2013.",
+			mainP: ``,
+			componenets: [
+            {
+               p: {
+                  imgUrl: "../assets/project-4/2.jpg",
+                  text: `Untitled, 64 drawing installation, 2013.`,
+               },
+            },
+            {
+					audio: {
+                  src: "../assets/project-4/3.mp3",
+                  type:"audio/mpeg",
+                  text: `NW8 – SE8 London Exposure 13 Award Audio Extract 5 minutes 01 second duration of piece 3 hours 54 minutes 14 seconds.`,
+                  p: true
+					},
+            },
+         ],
+   },
+      { id: 5, 
+         url: "pages/project_5.html", 
+         thumb: "assets/project-5/Thumb.jpg", 
+         name: "SVA",
+         mainImg: "../assets/project-5/1.jpg",
+			"image-title":
+				"Untitled, Drawing on Maps, Newspaper and Magazine collage, 2014.",
+			mainP: ``,
+			componenets: [
+				{
+					p: {
+                  imgUrl: "../assets/project-5/2.jpg",
+						text: `Untitled, projection of hole punches on wall and wall drawing, 2014.`,
+               }
+            },{
+					p: {
+                  imgUrl: "../assets/project-5/3.jpg",
+						text: `Untitled, projection, 2015.`,
+               },
+            },{
+					p: {
+						text: `SVA Second Year`,
+               },
+               p: {
+                  imgUrl: "../assets/project-5/4.jpg",
+						text: `Untitled, Wall Drawings, 2015.`,
+               },
+            },{
+
+               p: {
+                  imgUrl: "../assets/project-5/5.jpg",
+						text: `Untitled, Map Drawings, 2016.`,
+               },
+				},
+				
+         ],
+      },
 	],
 };

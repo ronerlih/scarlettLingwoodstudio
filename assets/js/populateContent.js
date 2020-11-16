@@ -52,17 +52,30 @@ projectPage ? projectPage.innerHTML =
                   ${ componenet.p.text }
                </span>
             </p>`
-            : componenet.video.p
-               ?  `<p>
-                     <video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
+            : componenet.video 
+               ? 
+               componenet.video.p
+                  ?  `<p>
+                        <video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
+                        <span class="image-title">
+                           ${ componenet.video.text }
+                        </span>
+                     </p>`
+                  : `<video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
+                        <span class="image-title">
+                           ${ componenet.video.text }
+                        </span>`
+               : componenet.audio
+                  ? 
+                  `<p>
+                     <audio controls>
+                        <source src=${ componenet.audio.src } type=${ componenet.audio.type } />
+                     </audio>
                      <span class="image-title">
-                        ${ componenet.video.text }
+                        ${ componenet.audio.text }
                      </span>
                   </p>`
-               : `<video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
-                     <span class="image-title">
-                        ${ componenet.video.text }
-                     </span>`
+                  : `<></>`
 
             
       )

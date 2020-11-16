@@ -5,7 +5,7 @@
 
 ### 🎨 Add content
    - Add project content block to `data.js`
-![data.js](assets/add_content.png) 
+<img src="assets/add_content.png" alt="data.js" width=400>
 
 ### ⚙️ Deployment
 - **project deployment process**: push to main => github actions => to aws S3 => aws cloudFront distribution

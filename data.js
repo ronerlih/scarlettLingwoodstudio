@@ -58,7 +58,7 @@ const data = {
 		{
 			id: 2,
 			url: "pages/project_2.html",
-			thumb: "assets/project-2/Thumb.jpg",
+			thumb: "../assets/project-2/Thumb.jpg",
 			name: "Goldsmiths Thesis show",
          mainImg: "../assets/project-2/1.jpg",
 			"image-title":
@@ -89,8 +89,8 @@ const data = {
 				},
 				{
 					video: {
-                  poster: "assets/project-2/4.jpg",
-                  src: "assets/project-2/3.mov",
+                  poster: "../assets/project-2/4.jpg",
+                  src: "../assets/project-2/3.mov",
                   text: ``,
 					},
 				},

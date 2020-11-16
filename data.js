@@ -216,6 +216,36 @@ const data = {
             ],
         },
         // until here
+        // start of new project - start copying from hear
+        {
+            id: 6,
+            url: "pages/project_6.html",
+            thumb: "assets/project-6/artificial-intelligence-psychiatry.jpg",
+            name: "test",
+            mainImg: "../assets/project-6/artificial-intelligence-psychiatry.jpg",
+            "image-title":
+                "Untitled, Drawing on Maps, Newspaper and Magazine collage, 2014.",
+            mainP: ``,
+            componenets: [
+                {
+                    p: {
+                        
+                        text: `lorem ron elrih`,
+                    }
+                },  {
+                    p: {
+                        imgUrl: "../assets/project-5/2.jpg",
+                        text: `Untitled, projection of hole punches on wall and wall drawing, 2014.`,
+                    }
+                },  {
+                    p: {
+                        imgUrl: "../assets/project-5/3.jpg",
+                        text: `Untitled, projection, 2015.`,
+                    },
+                },
+            ],
+        },
+        // until here
        
     ],
-};
+}; 

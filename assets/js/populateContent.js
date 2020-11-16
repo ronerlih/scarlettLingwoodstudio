@@ -52,11 +52,19 @@ projectPage ? projectPage.innerHTML =
                   ${ componenet.p.text }
                </span>
             </p>`
-            : 
-            `<video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
-               <span class="image-title">
-               ${ componenet.video.text }
-            </span>`
+            : componenet.video.p
+               ?  `<p>
+                     <video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
+                     <span class="image-title">
+                        ${ componenet.video.text }
+                     </span>
+                  </p>`
+               : `<video controls poster=${ componenet.video.poster } src=${ componenet.video.src }>
+                     <span class="image-title">
+                        ${ componenet.video.text }
+                     </span>`
+
+            
       )
       .join('')
       : 0

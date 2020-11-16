@@ -99,8 +99,56 @@ const data = {
 		{
 			id: 3,
 			url: "pages/project_3.html",
-			thumb: "assets/project-3/Thumb.jpg",
-			name: "Calasetta Calling",
+			thumb: "../assets/project-3/Thumb.jpg",
+         name: "Calasetta Calling",
+         mainImg: "../assets/project-3/1.jpg",
+			"image-title":
+				"Untitled, photograph from Calasetta Calling Performance ",
+			mainP: `Following on from the residency, I continued to collaborate with Stefano, Marina and Tankboys to do a one night performance at Stationers Hall. The performance piece was inspired by my wall drawing. I wanted to recreate the sonic, repetitive atmosphere, I was drawn to when I created the wall drawing. Calasetta Calling was a 3 hour durational performance.`,
+			componenets: [
+            {
+               p: {
+                  text: `Following on from the residency, I continued to collaborate with Stefano, Marina and Tankboys to do a one night performance at Stationers Hall. The performance piece was inspired by my wall drawing. I wanted to recreate the sonic, repetitive atmosphere, I was drawn to when I created the wall drawing. Calasetta Calling was a 3 hour durational performance.`,
+               },
+            },
+            {
+					video: {
+                  poster: "../assets/project-3/6.jpg",
+                  src: "../assets/project-3/5.mov",
+                  text: `Untitled, Calasetta Calling, audio`,
+                  p: true
+					},
+            },
+            {
+					p: {
+						imgUrl: "../assets/project-3/2.jpg",
+						text: `Untitled, Calasetta Calling, Wall Drawing detail, July 2013.`,
+					},
+				},
+				
+				{
+					p: {
+						text: `When I created this piece, I was very much drawn to the sound of the pencil marking the wall.`,
+					},
+				},
+				{
+					p: {
+                  imgUrl: "../assets/project-3/3.jpg",
+						text: `Untitled, Calasetta Calling, Wall Drawing detail, July 2013.`,
+					},
+				},
+				{
+					p: {
+						text: `Following on from the residency, I continued to collaborate with Stefano, Marina, Tankboys and ... to do a one night performance at Stationers Hall. The performance piece was inspired by my wall drawing. I wanted to recreate the sonic, repetitive atmosphere, I was drawn to when I created the wall drawing. Calasetta Calling was a 3 hour durational performance.`,
+					},
+				},
+            {
+					p: {
+                  imgUrl: "../assets/project-3/4.jpg",
+						text: `Untitled, Calasetta Calling, Wall Drawing detail, July 2013.`,
+					},
+				},
+         ],
 		},
 		{ id: 4, url: "pages/project_4.html", thumb: "assets/project-4/Thumb.jpg", name: "Brain" },
 		{ id: 5, url: "pages/project_5.html", thumb: "assets/project-5/Thumb.jpg", name: "SVA" },
